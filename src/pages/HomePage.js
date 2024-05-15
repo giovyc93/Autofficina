@@ -1,7 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Content from "../components/Content";
-import ProductContainer from "../components/ProductContainer";
 import Home from "../assets/img/Home.jpg";
 import Title from "../components/Title"
 import Cover from "../assets/img/mechanic.jpg";
