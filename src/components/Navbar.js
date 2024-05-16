@@ -17,12 +17,12 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a className="aNav" href="/Discover">
+            <a className="aNav" href="/">
               Chi siamo
             </a>
           </li>
           <li>
-            <a className="aNav" href="/AboutUs">
+            <a className="aNav" href="/">
               Contattaci
             </a>
           </li>

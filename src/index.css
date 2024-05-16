@@ -140,8 +140,7 @@ li {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: bold;
   background-color: white;
   font-size: 22px;
@@ -430,7 +429,7 @@ a:hover {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: 22px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 50px;
   transition: 0.5s;
@@ -441,7 +440,6 @@ a:hover {
   border: 5px solid white;
 }
 .titleHome {
-  margin: 20px;
   font-family: "Montserrat", sans-serif;
   color: white;
   text-transform: uppercase;
@@ -699,6 +697,13 @@ a:hover {
   .socialBox {
     width: 20%;
   }
+  .subtitleHome1 {
+    margin-left: 40px;
+    font-size: 12px;
+  }
+  .boxList {
+    font-size: 10px;
+  }
   .discoverSubtitle {
     margin-top: 80px;
     font-size: 25px;
@@ -759,14 +764,15 @@ a:hover {
     font-weight: 400;
   }
   .contentParagraph {
-    font-size: 16px;
+    font-size: 14px;
   }
   .discoverContent {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
-    padding: 0px 0 0px 0;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
   }
   .discoverText {
     display: flex;
@@ -786,20 +792,22 @@ a:hover {
     height: 50vh;
     padding: 0px;
     padding-top: 0px;
+    gap: 0px;
   }
   .discoverContent1 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 97vh;
-    padding: 0px 0 0px 0;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
   }
   .discoverParagraph {
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
   }
   .discoverSubtitle {
-    margin-top: 80px;
+    margin-top: 0px;
     font-size: 30px;
     text-align: center;
   }
@@ -884,10 +892,6 @@ a:hover {
   }
   a {
     font-size: 12px;
-  }
-  .discoverParagraph {
-    font-size: 18px;
-    text-align: center;
   }
 }
 @media screen and (max-width: 406px) {

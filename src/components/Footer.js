@@ -10,14 +10,14 @@ const Footer = () => {
           <a className="linksFooter" href="/">
             Home
           </a>
-          <a className="linksFooter" href="#/discover">
+          <a className="linksFooter" href="/">
             Chi siamo
           </a>
-          <a className="linksFooter" href="#/find-us">
+          {/* <a className="linksFooter" href="#/find-us">
             Contattaci
-          </a>
+          </a> */}
         </div>
-        <p className="paragraph">© 2023 - 2024 Autofficina di Ienna Rosalia - All Rights Reserved.</p>
+        <p className="paragraph">© 2023 - 2024 Centro revisione Ienna - All Rights Reserved.</p>
       </div>
 
     </>
