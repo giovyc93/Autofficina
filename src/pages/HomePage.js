@@ -19,7 +19,7 @@ const HomePage = () => {
   const data1 = {
     classe: "discoverContent1",
     paragraph: " Come Centro Autorizzato dalla Motorizzazione Civile, offre anche servizi di revisione periodica per automobili, motociclette e autocarri, fornendo la documentazione necessaria per la conformità del veicolo. Sia che si tratti di auto, furgoni, camion o moto.",
-    title: "Gusti Autentici per Aziende Esigenti",
+    title: "Revisione Veicoli Completa presso il Centro Autorizzato",
     img: Tyres
   };
   return (
