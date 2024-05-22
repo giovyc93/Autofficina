@@ -43,17 +43,17 @@ const CompanyPage = () => {
           <h2 className="contentSubtitle">I nostri servizi</h2>
           <div className="productsContainer">
             <CardProducts
-              nameCard="Crocchè"
+              nameCard="Revisione"
               fotoCard={Wrench}
               handler={() => handle1()}
             />
             <CardProducts
-              nameCard="Crocchè"
+              nameCard="Revisione"
               fotoCard={Oil}
               handler={() => handle2()}
             />
             <CardProducts
-              nameCard="Crocchè"
+              nameCard="Revisione"
               fotoCard={Wrench}
               handler={() => handle1()}
             />
