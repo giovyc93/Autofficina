@@ -11,16 +11,20 @@ import DiscoverContent from "../components/DiscoverContent";
 
 const HomePage = () => {
   const data = {
-    classe: "discoverContent",
+    classe: "homeContent",
+    textClass: "homeText",
     paragraph: "Se hai bisogno di noleggiare un'auto mentre il tuo veicolo è in revisione, Centro Revisione Ienna ti metterà in contatto con diverse compagnie di noleggio a breve e lungo termine con cui collaborano, garantendoti le tariffe più vantaggiose sul mercato. Inoltre, per soddisfare le esigenze delle grandi aziende, l'officina di Palermo offre soluzioni personalizzate per le revisioni periodiche dei veicoli aziendali, tra cui la gestione assicurativa senza pagamento anticipato.",
     title: "Centro revisioni Ienna",
-    img: Cover
+    img: Cover,
+    imgClass: "homeImg"
   };
   const data1 = {
-    classe: "discoverContent1",
+    classe: "homeContent1",
+    textClass: "homeText",
     paragraph: " Come Centro Autorizzato dalla Motorizzazione Civile, offre anche servizi di revisione periodica per automobili, motociclette e autocarri, fornendo la documentazione necessaria per la conformità del veicolo. Sia che si tratti di auto, furgoni, camion o moto.",
-    title: "Revisione Veicoli Completa presso il Centro Autorizzato",
-    img: Tyres
+    title: "Revisione Veicoli Completa",
+    img: Tyres,
+    imgClass: "homeImg"
   };
   return (
     <>

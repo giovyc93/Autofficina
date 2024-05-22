@@ -17,8 +17,8 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a className="aNav" href="/">
-              Chi siamo
+            <a className="aNav" href="/Discover">
+              Servizi
             </a>
           </li>
           <li>

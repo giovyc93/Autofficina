@@ -11,7 +11,7 @@ const Footer = () => {
             Home
           </a>
           <a className="linksFooter" href="/">
-            Chi siamo
+          Servizi
           </a>
           {/* <a className="linksFooter" href="#/find-us">
             Contattaci
