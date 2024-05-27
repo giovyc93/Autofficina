@@ -4,7 +4,8 @@ const InfoBox = () => {
             <div className="boxInfo">
                 <h1 className="subtitleHome1">Orario di apertura</h1>
                 <ol className="boxList">
-                    <li>Lunedì - Sabato 08.00 - 19.00 </li>
+                    <li>Lunedì - Venerdì 08.00 - 18.30 (Orario continuato) </li>
+                    <li>Sabato 08.00 - 13.00 </li>
                     <li>Domenica - chiuso </li>
                 </ol>
             </div>
@@ -15,9 +16,10 @@ const InfoBox = () => {
             <div className="boxInfo">
                 <h1 className="subtitleHome1">Contatti</h1>
                 <ol className="boxList">
-                    <li>Città - </li>
-                    <li>Via - </li>
-                    <li>Numero - </li>
+                    <li>Palermo PA</li>
+                    <li>Via Sperone, 3d, 90123</li>
+                    <li>Tel - 0917297718</li>
+                    <li>Cell - 3400874374</li>
                     <li>Email - </li>
                 </ol>
             </div>

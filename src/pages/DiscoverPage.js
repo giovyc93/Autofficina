@@ -3,9 +3,11 @@ import Footer from "../components/Footer";
 import DiscoverContent from "../components/DiscoverContent";
 import Title from "../components/Title"
 import Cover from "../assets/img/mechanic.jpg";
-import CardProducts from "../components/CardProducts"
-import Wrench from "../assets/img/wrench.png";
-import Oil from "../assets/img/oil.png";
+// import CardProducts from "../components/CardProducts"
+// import Wrench from "../assets/img/wrench.png";
+// import Oil from "../assets/img/oil.png";
+import BlockShaft from "../assets/img/blockshaft.jpg";
+import Tyres from "../assets/img/tyres.jpg";
 
 const CompanyPage = () => {
   const data = {
@@ -14,24 +16,33 @@ const CompanyPage = () => {
     textClass: "discoverText",
     img: Cover,
     imgClass:"discoverImg",
-    paragraph: "Se hai bisogno di noleggiare un'auto mentre il tuo veicolo è in revisione, Centro Revisione Ienna ti metterà in contatto con diverse compagnie di noleggio a breve e lungo termine con cui collaborano, garantendoti le tariffe più vantaggiose sul mercato. Inoltre, per soddisfare le esigenze delle grandi aziende, l'officina di Palermo offre soluzioni personalizzate per le revisioni periodiche dei veicoli aziendali, tra cui la gestione assicurativa senza pagamento anticipato.",
-    title: "Centro revisioni Ienna",
+    paragraph: "La nostra officina offre servizi completi di tagliando auto. Con tecnici esperti e attrezzature all'avanguardia, garantiamo manutenzione accurata e ricambi originali per mantenere il vostro veicolo in perfette condizioni. Affidateci la vostra auto per un tagliando di qualità. Visitateci per prenotare il servizio",
+    title: "Tagliando auto",
   };
   const data1 = {
     id: "product2",
     classe: "discoverContent1",
-    img: Cover,
+    img: Tyres,
     imgClass:"discoverImg",
     textClass: "discoverText",
-    paragraph: " Come Centro Autorizzato dalla Motorizzazione Civile, offre anche servizi di revisione periodica per automobili, motociclette e autocarri, fornendo la documentazione necessaria per la conformità del veicolo. Sia che si tratti di auto, furgoni, camion o moto.",
-    title: "Revisione Veicoli Completa",
+    paragraph: "La nostra officina è specializzata in meccanica leggera, offrendo servizi rapidi e precisi per la manutenzione quotidiana del vostro veicolo. Dalla sostituzione di filtri e olio ai controlli sui freni e le sospensioni, i nostri tecnici esperti utilizzano attrezzature moderne per garantire interventi di alta qualità. Affidateci la vostra auto per una manutenzione efficiente e sicura. Venite a trovarci per i vostri interventi di meccanica leggera!",
+    title: "Meccanica leggera",
   };
-  const handle1 = () => {
-    window.location.href = "#product";
-  }
-  const handle2 = () => {
-    window.location.href = "#product2";
-  }
+  const data2 = {
+    id: "product3",
+    classe: "discoverContent",
+    img: BlockShaft,
+    imgClass:"discoverImg1",
+    textClass: "discoverText",
+    paragraph: "La nostra officina è specializzata nell'installazione del Block Shaft 2, il sistema antifurto meccanico all'avanguardia. Con anni di esperienza e un team di esperti qualificati, garantiamo un'installazione rapida e precisa per proteggere il vostro veicolo.",
+    title: "Installazione Block Shaft 2",
+  };
+  // const handle1 = () => {
+  //   window.location.href = "#product";
+  // }
+  // const handle2 = () => {
+  //   window.location.href = "#product2";
+  // }
 
 
   return (
@@ -41,7 +52,7 @@ const CompanyPage = () => {
       <div className="spaceContainer"></div>
         <div className="homeProducts">
           <h2 className="contentSubtitle">I nostri servizi</h2>
-          <div className="productsContainer">
+          {/* <div className="productsContainer">
             <CardProducts
               nameCard="Revisione"
               fotoCard={Wrench}
@@ -57,12 +68,14 @@ const CompanyPage = () => {
               fotoCard={Wrench}
               handler={() => handle1()}
             />
-          </div>
+          </div> */}
         </div>
         <div className="spaceContainer"></div>
           <DiscoverContent {...data} />
-          <div className="spaceContainer"></div>
+        <div className="spaceContainer"></div>
           <DiscoverContent {...data1} />
+          <div className="spaceContainer"></div>
+          <DiscoverContent {...data2} />
           <div className="spaceContainer"></div>
           <Title />
         </div>

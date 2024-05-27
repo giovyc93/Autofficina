@@ -1,9 +1,9 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Content from "../components/Content";
-import Home from "../assets/img/Home.jpg";
+import Home from "../assets/img/mechanic.jpg";
 import Title from "../components/Title"
-import Cover from "../assets/img/mechanic.jpg";
+import Cover from "../assets/img/Cover.jpg";
 import Tyres from "../assets/img/tyres.jpg";
 import DiscoverContent from "../components/DiscoverContent";
 
@@ -46,6 +46,7 @@ const HomePage = () => {
         />
         <DiscoverContent {...data} />
         <DiscoverContent {...data1} />
+        <div className="spaceContainer"></div>
         <Title />
       </div>
       <Footer />
